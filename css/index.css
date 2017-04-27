@@ -162,14 +162,14 @@ h2 {
     animation: slideDown 750ms both;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 30px
+    margin-bottom: 20px
 }
 .call-to-action .btn {
     -webkit-animation: fadeIn 500ms both;
     animation: fadeIn 500ms both
 }
 .socials {
-    margin-top: 10px
+    margin-top: 20px
 }
 .socials__link {
     color: inherit;
