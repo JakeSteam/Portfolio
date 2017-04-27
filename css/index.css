@@ -104,6 +104,9 @@ h2 {
     background: #f04;
     color: #fff
 }
+.btn:hover {
+	background: #000
+}
 .btn--primary {
     background: #f04;
     color: #fff
@@ -178,6 +181,7 @@ h2 {
 .project {
     overflow: hidden;
     margin-bottom: 50px;
+    padding: 10px;
     text-align: center
 }
 @media (min-width: 768px) {
@@ -254,12 +258,12 @@ h2 {
     animation: slideUp 750ms both;
     border: 1px solid #eaeaea;
     border-top: 2px solid #f04;
+    vertical-align: middle;
     color: #222;
     display: inline-block;
     font-size: 13px;
     padding: 20px;
     position: relative;
-    vertical-align: top;
     width: 97%
 }
 @media (min-width: 768px) {
