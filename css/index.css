@@ -192,9 +192,10 @@ h2 {
 .project__img-container {
     margin: 0 auto;
     text-align: center;
-    height: 100px;
-    width: 100px;
-    line-height: 100px
+    height: 300px;
+    width: 300px;
+    line-height: 100px;
+    margin-bottom: 7px
 }
 @media (min-width: 768px) {
     .project__img-container {
