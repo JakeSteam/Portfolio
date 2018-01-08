@@ -10,15 +10,14 @@
 	</head>
 	<body>
 		<header class="header-container"></header>
-		<div class="container">
+		<div id="intro" class="container">
 			<div class="lead">
 				<h1 class="lead__heading">Hi, I'm Jake Lee</h1>
 				<div class="lead__sub">
-					<p>I'm a full-time software engineer based in Winchester, England. I also work on various projects (mostly Android based!) in my spare time.</p>
-					<p>Interested in working together? Send an email!</p>
+					<p>I'm a software engineer based in Guildford, England. I'm currently co-founder / CTO of <a href="https://creators.direct" target="_blank">Creators.Direct</a>.</p>
+					<p>Projects listed below do not include any work done for clients / as part of employment.</p>
 				</div>
 				<div class="call-to-action">
-					<a href="mailto:work@jakelee.co.uk" target="_blank" class="btn btn--primary btn--lg">Email me</a>
 					<div class="socials">
 						<a class="socials__link" href="https://www.linkedin.com/in/jake-lee" target="_blank">
 							<i class="fa fa-linkedin-square fa-3x"></i>
@@ -42,11 +41,26 @@
 							<i class="fa fa-steam-square fa-3x"></i>
 						</a>
 					</div>
+					<a href="mailto:work@jakelee.co.uk" target="_blank" class="btn btn--primary btn--lg">Email me</a>
 				</div>
 			</div>
 		</div>
-		<div class="container project-container">
+		<div id="projects" class="container project-container">
 			<h1>Projects</h1>
+			<div class="project">
+				<div class="project__img-container"><img class="project__img" src="img/CreatorsDirect.png" alt="Tactical Fortress"></div>
+				<div class="project__details">
+					<h2 class="project__name">Creators.Direct</h2>
+					<div class="skill-tags">
+						<div class="skill-tag">Android / iOS / Web</div>
+						<div class="skill-tag">Java / Swift / PHP / CSS / JS</div>
+					</div>
+					<p>Creators.Direct provides an easy way for content creators to have apps on iTunes &amp; Google Play, with far lower costs, delays, and configuration than other solutions.</p>
+					<p>It also supports custom payments, multi-channel networks, and is fully integrated with 17+ websites.</p>
+					<p>I personally developed both the iOS and Android apps, the sales site, the Creator Portal, and all back-end processes.</p>
+					<p><a class="btn" href="https://creators.direct" target="_blank">Creators.Direct</a></p>
+				</div>
+			</div>
 			<div class="project">
 				<div class="project__img-container"><img class="project__img" src="img/PixelBlacksmith.png" alt="Pixel Blacksmith"></div>
 				<div class="project__details">
@@ -55,7 +69,7 @@
 						<div class="skill-tag">Android</div>
 						<div class="skill-tag">Java</div>
 					</div>
-					<p>Pixel Blacksmith is a free Android crafting game. It has been downloaded over 150,000 times, and has an average rating of 4.0.</p>
+					<p>Pixel Blacksmith is a free Android crafting game. It has been downloaded over 200,000 times, and has an average rating of 4.0.</p>
 					<p>It was my first Android app, so has evolved significantly over time as my skills have improved, and in response to player feedback. The most recent iteration has a massive array of features, including 230+ items, 50+ traders, 50+ visitors, 20+ settings, and 25+ upgrades.</p>
 					<p>Whilst working on the game, I've been the developer, designer, promoter, customer support, and any other role that has been required!</p>
 					<p><a class="btn" href="https://play.google.com/store/apps/details?id=uk.co.jakelee.blacksmith" target="_blank">Google Play</a></p>
@@ -83,22 +97,9 @@
 						<div class="skill-tag">Wordpress</div>
 					</div>
 					<p>Game Dev Algorithms is a Wordpress based blog updated a few times a month with algorithms / techniques I've come across whilst developing games, in the hope that they'll be useful to others.</p>
-					<p>
 					<p>Techniques are explained fully, and contain diagrams and example code where appropriate.</p>
 					<p>Most articles have code hosted on GitHub's <a href="https://gist.github.com/JakeSteam" target="_blank">Gist</a> platform.</p>
 					<p><a class="btn" href="https://GameDevAlgorithms.com" target="_blank">Game Dev Algorithms</a></p>
-				</div>
-			</div>
-			<div class="project">
-				<div class="project__img-container"><img class="project__img" src="img/CreatorsDirect.png" alt="Tactical Fortress"></div>
-				<div class="project__details">
-					<h2 class="project__name">Creators.Direct</h2>
-					<div class="skill-tags">
-						<div class="skill-tag">Android / iOS / Web</div>
-						<div class="skill-tag">Java / Swift / PHP</div>
-					</div>
-					<p>Creators.Direct is an upcoming tool for content creators to increase engagement, and form a closer connection with their core audience.</p>
-					<p>It is currently under heavy development, more details will be added upon completion.</p>
 				</div>
 			</div>
 			<div class="project">
@@ -110,7 +111,6 @@
 						<div class="skill-tag">Java</div>
 					</div>
 					<p>The Nearest is an Android utility app that quickly finds the closest place in a specified category.
-					<p>
 					<p>Shortcuts can be added on the homescreen, or scheduled as future notifications. For example, a shortcut could be created to find the nearest ATM in one click, useful for travelling to a new city.</p>
 					<p>The Nearest was created as a self-imposed 24 hour project.</p>
 					<p><a class="btn" href="https://play.google.com/store/apps/details?id=uk.co.jakelee.thenearest" target="_blank">Google Play</a> <a class="btn" href="https://www.youtube.com/watch?v=4y9nxqsSRzo" target="_blank">Trailer</a></p>
@@ -165,12 +165,12 @@
 						<div class="skill-tag">Javascript</div>
 					</div>
 					<p>Selective Scrubber instantly removes any set of specific sites / phrases from Chrome history with a single click.</p>
-					<p>It was my first open source project <a href="https://github.com/JakeSteam/SelectiveScrubber" target="_blank">(code)</a>, as well as my first Chrome extension.</p>
+					<p>It was an early open source project (<a href="https://github.com/JakeSteam/SelectiveScrubber" target="_blank">code</a>), used to understand how Chrome extensions work.</p>
 					<p><a class="btn" href="https://chrome.google.com/webstore/detail/selective-scrubber/ljjdcbfpdmjelppcfeiadnjagdhompkb" target="_blank">Selective Scrubber</a></p>
 				</div>
 			</div>
 		</div>
-		<div class="container experience-container">
+		<div id="qualifications" class="container experience-container">
 			<h1>Qualifications</h1>
 			<h5><a href="https://www.youracclaim.com/user/jake-lee" target="_blank">Full YourAcclaim exam breakdown</a></h5>
 			<div class="timeline">
@@ -202,28 +202,31 @@
 				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class='contact'>
+		<div id="skills" class="container">
+			<div>
 				<h1>Skills</h1>
 				<h3>Databases</h3>
-				<p>I have a strong interest in order and structure, and databases perfectly fit that requirement. My MCSA and MTA were gained in my spare time due to my passion for databases, and I have extensive experience with most database flavours.</p>
+				<p>I have a strong interest in order and structure, and databases perfectly fit that requirement. My MCSE, MCSA, and MTA were gained in my spare time due to my passion for databases, and I have extensive experience with most database flavours.</p>
 				<ul>
-					<li><b>MS SQL (T-SQL)</b> - Besides the two qualifications, I have also managed systems with 50+ remote SQLExpress instances, which often had to be repaired, updated, and analysed.</li>
-					<li><b>MySQL</b> - I've maintained a 400GB+ MySQL instance, including regular backups &amp; restores, as well as hundreds of reports, data conversion exercises, and import tasks.</li>
-					<li><b>SQLite</b> - Almost all of my Android apps use SQLite alongside various ORM libraries, and have required regular patches. Additionally, performance is crucial on mobile devices, so query optimisation was essential.</li>
-					<li><b>Oracle SQL</b> - Whilst I don't have as much Oracle SQL experience as the other 3, I have worked on an extremely large and sprawling database for a company worth >&pound;20 billion.
+					<li><b>MS SQL (T-SQL)</b> - Besides my qualifications, I have also managed systems with 50+ remote SQLExpress instances, which often had to be repaired, updated, and analysed.</li>
+					<li><b>MySQL</b> - I  maintained a 400GB+ MySQL instance for 3 years, including regular backups &amp; restores, as well as hundreds of reports, data conversion exercises, and import tasks. The database had 50+ concurrent users during the week.</li>
+					<li><b>SQLite</b> - Almost all of the Android apps I've developed use SQLite alongside various ORM libraries, and have required regular patches. Additionally, performance is crucial on mobile devices, so query optimisation was essential.</li>
+					<li><b>Oracle SQL</b> - Whilst I don't have as much Oracle SQL experience as the other 3, I have worked briefly on an extremely large and sprawling database for a company worth >&pound;20 billion.
 				</ul>
 				<h3>Languages</h3>
-				<p>Like many programmers, most of my languages are self-taught, so I have plenty of experience in them but no formal qualifications.</p>
+				<p>Like many programmers, most of my languages are self-taught. Some languages have proficiency evident in side projects, but others (e.g. C#) have only been used during employment.</p>
+				<p>In approximate order of expertise:</p>
 				<ul>
-					<li><b>Java</b> - All my Android projects (personal & for my job) are written solely in Java. Additionally, I've managed Java projects across a variety of servers (Wildfly, Tomcat), most of which interacted with third party and internal APIs. </li>
-					<li><b>C#</b> - I've written and maintained various C# programs for commercial use, some using WinForms, others to run as services.</li>
-					<li><b>PHP</b> - One of the first languages I learned, I maintain and develop new features for a very large PHP intranet CMS that has been under constant development for over a decade.</li>
+					<li><b>Java</b> - All my Android projects (personal & for clients / employment) are written solely in Java. Additionally, I've managed Java projects across a variety of servers (Wildfly, Tomcat), most of which interacted with third party and internal APIs and handled sensitive data.</li>
+					<li><b>PHP</b> - I was responsible for a client for 3 years that primarily consisted of a large PHP CMS that communicated with many third party systems, and had hundreds of management pages and scheduled tasks. It also regularly underwent penetration tests and auditing by industry specialists.</li>
+					<li><b>C#</b> - I've written and maintained 10+ C# programs for commercial use, some using WinForms, others to run as services. Many of these have run for years without requiring any changes, whilst others required weekly tweaks.</li>
 					<li><b>HTML, CSS, Javascript</b> - Whilst I prefer back-end languages and SQL, I have extensive experience with front-end languages and am comfortable using them to add functionality &amp; style to sites.</li>
+					<li><b>Swift</b> - </li>
+					<li><b>Visual Basic</b> - Added new features &amp; resolved bugs in a client's Microsoft Access CMS. Additionally, independently researched and implemented a VB script and procedure to add git source control to a project that previously had not been able to, allowing multiple features to be worked on simultaneously.</li>
 				</ul>
 				<h3>Communities</h3>
 				<ul>
-					<li><b>Reddit</b> - Due to my interest in Android, I've worked to become a moderator on various Android related subreddits. These include <a href="https://www.reddit.com/r/Android" target="_blank">/r/Android</a> (850k users), <a href="https://www.reddit.com/r/AndroidApps/" target="_blank">/r/AndroidApps</a> (100k), <a href="https://www.reddit.com/r/AndroidGaming/" target="_blank">/r/AndroidGaming</a> (90k), and <a href="https://www.reddit.com/r/AndroidQuestions/" target="_blank">/r/AndroidQuestions</a> (30k).<br>
+					<li><b>Reddit</b> - Due to my interest in Android, I've worked to become a moderator on various Android related subreddits. These include <a href="https://www.reddit.com/r/Android" target="_blank">/r/Android</a> (1m users), <a href="https://www.reddit.com/r/AndroidApps/" target="_blank">/r/AndroidApps</a> (115k), and <a href="https://www.reddit.com/r/AndroidGaming/" target="_blank">/r/AndroidGaming</a> (110k).<br>
 						Moderating these requires collaboration with the other moderators (and Reddit's admin team), addressing user concerns, and coming up with initiatives to improve the subreddit. Rules and guidelines must also be enforced.
 					</li>
 					<li><b>Social Media</b> - To help promote my projects, I've used social media to let players get in touch. Pixel Blacksmith for example has active <a href="https://www.reddit.com/r/PixelBlacksmith/" target="_blank">subreddit</a>, <a href="https://www.facebook.com/PixelBlacksmith/" target="_blank">facebook</a>, and <a href="https://twitter.com/PixelBlacksmith" target="_blank">twitter</a> accounts.</li>
@@ -231,16 +234,18 @@
 				</ul>
 				<h3>Other</h3>
 				<ul>
+					<li><b>Servers</b> - Oversaw and implemented a client's migration (15+ systems) from a single outdated 32-bit OS to a Windows Hyper-V server, with an Ubuntu database VM &amp; Windows Server application VM.</li>
+					<li><b>Administration</b> - Experience managing Google Apps for Work / G Suite, domain management, Windows Server.</li>
+					<li><b>Security</b> - In addition to client's sites undergoing penetration tests, Creators.Direct implements the latest web security concepts (HTTPS, HSTS, CSRF, TLS 1.2, Content Security Policy).</li>
 					<li><b>Company</b> - Founded and handled financial records for <a href="https://beta.companieshouse.gov.uk/company/10660441">Jake Lee Ltd</a>, used to separate app sales from personal finances.</li>
 					<li><b>Software</b> - Adobe Creative Suite, Microsoft Office Suite, industry standard FTP / Git / etc tools.</li>
-					<li><b>Administration</b> - Experience managing Google Apps for Work, domain management, Windows Server.</li>
 				</ul>
 			</div>
 		</div>
-		<div class="container">
+		<div id="contact" class="container">
 			<div class='contact'>
 				<h1>Contact</h1>
-				<p class='contact__msg'>Whilst I am currently employed full-time at <a href="http://www.bespokesoftware.com/" target="_blank">First Option Software</a>, I'm always up for new projects to work on in my spare time! If you'd like to get in touch, please email me at <a href="mailto:work@jakelee.co.uk">work@jakelee.co.uk</a>.
+				<p class='contact__msg'>Whilst I am currently working on <a href="https://creators.direct" target="_blank">Creators.Direct</a>, I'm often up for new projects to work on in my spare time! If you'd like to get in touch, please email me at <a href="mailto:work@jakelee.co.uk">work@jakelee.co.uk</a> or use the social links at <a href="#intro">the top of the page</a>.
 			</div>
 		</div>
 		<footer class='footer'>
