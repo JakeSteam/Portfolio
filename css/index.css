@@ -162,14 +162,14 @@ h2 {
     animation: slideDown 750ms both;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 30px
+    margin-bottom: 20px
 }
 .call-to-action .btn {
     -webkit-animation: fadeIn 500ms both;
     animation: fadeIn 500ms both
 }
 .socials {
-    margin-top: 10px
+    margin-top: 20px
 }
 .socials__link {
     color: inherit;
@@ -192,9 +192,10 @@ h2 {
 .project__img-container {
     margin: 0 auto;
     text-align: center;
-    height: 100px;
-    width: 100px;
-    line-height: 100px
+    height: 300px;
+    width: 300px;
+    line-height: 100px;
+    margin-bottom: 7px
 }
 @media (min-width: 768px) {
     .project__img-container {
@@ -291,7 +292,6 @@ h2 {
 }
 .timeline__item:nth-child(odd) {
     margin-top: 20px;
-    margin-bottom: -100px
 }
 @media (min-width: 768px) {
     .timeline__item:nth-child(odd) {
