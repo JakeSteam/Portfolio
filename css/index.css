@@ -169,7 +169,8 @@ h2 {
     animation: fadeIn 500ms both
 }
 .socials {
-    margin-top: 20px
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .socials__link {
     color: inherit;
