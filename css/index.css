@@ -148,25 +148,33 @@ h2 {
     }
 }
 .lead__heading {
-    -webkit-animation: slideUp 750ms both;
-    animation: slideUp 750ms both;
     font-size: 40px
 }
+
+.slide_up {
+    -webkit-animation: slideUp 750ms both;
+    animation: slideUp 750ms both;
+}
+
+.slide_down {
+    -webkit-animation: slideDown 750ms both;
+    animation: slideDown 750ms both;
+}
+
+.fade_in {
+    -webkit-animation: fadeIn 500ms both;
+    animation: fadeIn 500ms both
+}
+
 @media (min-width: 460px) {
     .lead__heading {
         font-size: 55px
     }
 }
 .lead__sub {
-    -webkit-animation: slideDown 750ms both;
-    animation: slideDown 750ms both;
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 20px
-}
-.call-to-action .btn {
-    -webkit-animation: fadeIn 500ms both;
-    animation: fadeIn 500ms both
 }
 .socials {
     margin-top: 20px;
