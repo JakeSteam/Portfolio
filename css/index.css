@@ -101,14 +101,14 @@ h2 {
     font-weight: 700;
     padding: 9px 13px;
     text-decoration: none;
-    background: #f04;
+    background: #ad0000;
     color: #fff
 }
 .btn:hover {
 	background: #000
 }
 .btn--primary {
-    background: #f04;
+    background: #ad0000;
     color: #fff
 }
 .btn--lg {
@@ -125,7 +125,7 @@ h2 {
     padding: 4px 8px
 }
 .testimonial {
-    border-left: 1px solid #f04;
+    border-left: 1px solid #ad0000;
     padding: 15px 15px
 }
 .testimonial p {
@@ -185,7 +185,7 @@ h2 {
     text-decoration: none
 }
 .socials__link:hover{
-	color: #f04
+	color: #ad0000
 }
 .project {
     overflow: hidden;
@@ -268,7 +268,7 @@ h2 {
     -webkit-animation: slideUp 750ms both;
     animation: slideUp 750ms both;
     border: 1px solid #eaeaea;
-    border-top: 2px solid #f04;
+    border-top: 2px solid #ad0000;
     vertical-align: middle;
     color: #222;
     display: inline-block;
@@ -338,5 +338,5 @@ h2 {
 }
 .footer__title {
     margin-top: 0;
-    color: #f04
+    color: #ad0000
 }
